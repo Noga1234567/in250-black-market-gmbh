@@ -4,3 +4,7 @@ secrets/
 *.json
 *.yml
 *.yaml
+
+# Ausnahme für GitHub Actions
+!.github/
+!.github/**
