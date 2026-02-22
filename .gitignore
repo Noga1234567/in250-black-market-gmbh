@@ -1,0 +1,6 @@
+# Secrets & Credentials
+secrets/
+*.env
+*.json
+*.yml
+*.yaml
