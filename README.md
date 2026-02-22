@@ -10,13 +10,10 @@ wird die Softwareentwicklung ab sofort professionell und strukturiert betrieben.
 
 ![Black Market Software](sources/bilder/black_market.jpg)
 
----
-
 ## 📁 Weiterführende Dokumentationen
 
 - [Verzeichnisstruktur](docs/01_verzeichnisstruktur.md)
-
----
+- [Branch-Strategie](docs/02_branch_strategie.md)
 
 ## ✅ Aufgaben
 
