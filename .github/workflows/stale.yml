@@ -1,0 +1,31 @@
+name: Close Stale Issues and Pull Requests
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  stale:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/stale@v9
+        with:
+          days-before-stale: 30
+          days-before-close: 7
+          stale-issue-message: >
+            Dieses Issue wurde seit 30 Tagen nicht mehr aktualisiert und wird
+            als veraltet markiert. Es wird in 7 Tagen automatisch geschlossen,
+            falls keine weiteren Aktivitäten stattfinden.
+          stale-pr-message: >
+            Dieser Pull Request wurde seit 30 Tagen nicht mehr aktualisiert und
+            wird als veraltet markiert. Er wird in 7 Tagen automatisch
+            geschlossen, falls keine weiteren Aktivitäten stattfinden.
+          close-issue-message: >
+            Dieses Issue wurde automatisch geschlossen, da es seit 37 Tagen
+            keine Aktivität mehr gab.
+          close-pr-message: >
+            Dieser Pull Request wurde automatisch geschlossen, da er seit 37
+            Tagen keine Aktivität mehr hatte.
+          stale-issue-label: 'stale'
+          stale-pr-label: 'stale'
