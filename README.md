@@ -10,6 +10,10 @@ wird die Softwareentwicklung ab sofort professionell und strukturiert betrieben.
 
 ![Black Market Software](sources/bilder/black_market.jpg)
 
+## 🌐 Website
+
+[Black Market Software GmbH – Website](https://noga1234567.github.io/in250-black-market-gmbh/)
+
 ## 📁 Weiterführende Dokumentationen
 
 - [Verzeichnisstruktur](docs/01_verzeichnisstruktur.md)
@@ -21,6 +25,6 @@ wird die Softwareentwicklung ab sofort professionell und strukturiert betrieben.
 - [x] Verzeichnisstruktur erstellt und Archivdaten extrahiert
 - [x] Dokumentation der Verzeichnisstruktur erstellt
 - [x] Hauptseite (README.md) erstellt
-- [ ] Automatisierung erstellen
-- [ ] Strategie definieren
-- [ ] Webseite für Github Pages
+- [x] Automatisierung erstellen
+- [x] Strategie definieren
+- [x] Webseite für Github Pages
